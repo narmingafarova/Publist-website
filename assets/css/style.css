@@ -1,0 +1,561 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1050px;
+}
+
+.initial {
+  background-image: url(../images/background/background-building.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  padding-top: 36px;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header,
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper {
+  justify-content: space-between;
+}
+
+.brand-wrapper a,
+.consulting-agency h3,
+.footer-initial-part .footer-title h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+.brand-wrapper a {
+  text-decoration: none;
+  color: #252b42;
+  width: 86px;
+  margin-left: 40px;
+}
+
+.header-options {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+.header-list ul li {
+  list-style: none;
+}
+
+.header-list ul li:not(:last-child) {
+  margin-right: 21px;
+}
+
+.header-options .header-list {
+  margin-right: 39px;
+}
+
+.header-list ul li a {
+  text-decoration: none;
+  color: #737373;
+}
+
+.header-list ul li a,
+.industry-card-content ul li,
+.industry-card-content a,
+.client-comment-card span,
+.team-members-duty,
+.appointment input,
+.appointment select,
+.footer-list-item ul li a,
+.footer-last-part p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+/* Buttons */
+
+button {
+  cursor: pointer;
+}
+
+.header button {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.header-options .search {
+  margin-right: 22px;
+}
+
+.header .option {
+  margin-right: 59px;
+}
+
+.primary,
+.secondary {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+.primary {
+  background-color: #ff7b47;
+  color: #ffffff;
+}
+
+.initial-page .get-quote {
+  border: 0;
+  border-radius: 37px;
+  margin-right: 10px;
+}
+
+.button-padding {
+  padding: 10px 36px;
+}
+
+.secondary {
+  color: #0d5c63;
+  background-color: transparent;
+  border: 1px solid #0d5c63;
+  border-radius: 37px;
+}
+
+.book-button,
+.contact-button {
+  border: 0;
+  padding: 15px 40px;
+}
+
+.contact-button {
+  margin: 42px 38px;
+}
+
+/* Initial-page */
+
+.initial-page {
+  padding: 190.5px 0;
+}
+
+.initial-page h1 {
+  width: 693px;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin-bottom: 35px;
+}
+
+.initial-page p {
+  width: 539px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+/* Industry */
+
+.industry {
+  margin: 80px 0;
+  text-align: center;
+}
+
+.industry h2,
+.video-part h2,
+.clients-part h2,
+.meet-team h2,
+.appointment .container h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin: 0;
+}
+
+.industry p,
+.video-part p,
+.clients-part p,
+.meet-team p,
+.consulting-agency span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding: 0 290px;
+  margin: 10px 0 80px;
+}
+
+.industry-cards {
+  display: flex;
+}
+
+.industry-card-item {
+  background-color: #d9edff;
+  border-radius: 10px;
+}
+
+.industry-card-content {
+  background: #ffffff;
+  border: 1px solid #a9d6ff;
+  border-radius: 11px;
+}
+
+.industry-card-item:nth-child(2) {
+  margin: 0 31px 0 30px;
+}
+
+.industry-card-content ul {
+  padding: 30px 40px 0 50px;
+}
+
+.industry-card-content ul li {
+  text-align: left;
+  list-style: none;
+  color: #737373;
+}
+
+.industry-card-content a {
+  text-decoration: none;
+  color: #ff7b47;
+}
+
+.industry-card-content-learn {
+  margin-bottom: 30px;
+}
+
+.industry-card-title {
+  display: flex;
+}
+
+.industry-card-title img {
+  margin: 30px 15px 30px 42.5px;
+}
+
+.industry-card-title em,
+.team-members-name,
+.appointment p,
+.footer-list-item strong {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+.industry-card-title em {
+  width: 156px;
+  font-style: normal;
+  margin: 54px 0;
+}
+
+.industry-card-content-list {
+  margin-bottom: 5px;
+}
+
+/* Who we are */
+
+.video-part {
+  position: relative;
+  padding: 80px 0;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.video-part .container p {
+  margin: 10px 0 50px;
+}
+
+.video-part img {
+  position: relative;
+  z-index: 1;
+}
+
+.video-background {
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* What client say */
+
+.clients-part {
+  text-align: center;
+  background-color: #f3f3f3;
+  padding: 80px 0;
+}
+
+.clients-comments-cards {
+  display: flex;
+  text-align: left;
+}
+
+.client-comment-card {
+  width: 327px;
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding-left: 35px;
+}
+
+.client-comment-card .rating {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.client-comment-card:nth-child(2) {
+  margin: 0 32px 0 32.5px;
+}
+
+.client-comment-card .client-comment {
+  color: #737373;
+}
+
+.client-comment-people-name-duty .client-name {
+  color: #ff7b47;
+}
+
+.client-comment-people-name-duty .client-duty {
+  color: #252b42;
+}
+
+.client-comment-people-info {
+  display: flex;
+}
+
+.client-comment-people-info .client-comment-people-name-duty {
+  display: grid;
+  align-content: center;
+  margin: 21px 0 31px 15px;
+}
+
+.client-comment-people-info img {
+  margin: 20px 0 30px;
+}
+
+/* Meet our team */
+
+.meet-team {
+  padding: 80px 0 92px;
+  text-align: center;
+}
+
+.team-members-cards {
+  display: flex;
+}
+
+.team-member-card-item {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  padding-bottom: 30px;
+}
+
+.team-member-card-item:nth-child(2) {
+  margin: 0 31px 0 30px;
+}
+
+.team-members-names {
+  margin-top: 30px;
+}
+
+.team-members-duty {
+  color: #737373;
+  margin: 5px 0;
+}
+
+.team-member-card-item span {
+  display: grid;
+}
+
+.team-members-socials a:nth-child(2) {
+  margin: 0 15px;
+}
+
+/* Make an appoitment */
+
+.appointment {
+  position: relative;
+  padding: 90px 0 234px;
+  background-image: url(../images/background/background-contact.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.appointment p {
+  margin: 0;
+}
+
+.appointment .container h2 {
+  margin-bottom: 40px;
+}
+
+.appointment label {
+  display: none;
+}
+
+.appointment input,
+.appointment select {
+  width: 285px;
+  color: #bdbdbd;
+  background-color: #f9f9f9;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 11px 0 15px;
+  margin-bottom: 20px;
+}
+
+.appointment #fullname,
+.appointment #email {
+  padding-left: 21px;
+}
+
+.appointment #selection,
+.appointment #hours {
+  padding-left: 18px;
+}
+
+.appointment #message {
+  padding: 16px 0 100px 26px;
+  margin-bottom: 40px;
+  width: 598px;
+}
+
+.appointment #fullname,
+.appointment #selection {
+  margin-right: 21px;
+}
+
+.consulting-agency,
+.video-background {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.consulting-agency {
+  height: 142px;
+  background-color: #fafafa;
+}
+
+.consulting-agency-inside,
+.footer-initial-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.consulting-agency h3 {
+  margin-bottom: 10px;
+  margin-top: 40px;
+  color: #252b42;
+}
+
+.consulting-agency .consulting-agency-inside span {
+  padding: 0;
+  margin: 0;
+}
+
+/* Footer */
+
+.about-part {
+  padding-top: 53px;
+  background-color: #252b42;
+}
+
+.footer-initial-part {
+  padding-right: 45px;
+  padding-bottom: 57px;
+  border-bottom: 1px solid #364067;
+}
+
+.footer-initial-part .footer-title h3 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.footer-initial-part .footer-socials {
+  display: flex;
+  align-items: center;
+}
+
+.footer-initial-part .footer-socials a:not(:last-child) {
+  margin-right: 20px;
+}
+
+.footer-list-part {
+  display: flex;
+}
+
+.footer-list-item {
+  padding: 70px 0;
+}
+
+.footer-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.footer-list-item strong {
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.footer-list-item:nth-child(2n) {
+  width: 152px;
+}
+
+.footer-list-item:nth-child(2n + 1) {
+  width: 148px;
+}
+
+.footer-list-item ul {
+  padding: 0;
+}
+
+.footer-list-item ul li {
+  list-style: none;
+}
+
+.footer-list-item ul li a {
+  text-decoration: none;
+  color: #bdbdbd;
+}
+
+.footer-list-item ul li:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.footer-last-part {
+  padding: 25px 0;
+  background-color: #17213c;
+}
+
+.footer-last-part p {
+  color: #ffffff;
+  margin: 0;
+}
